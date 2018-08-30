@@ -1,0 +1,13 @@
+{
+  "mail": {
+    "subject": "Сообщение с сайта",
+    "smtp": {
+      "host": "smtp.mailtrap.io",
+      "port": 2525,
+      "auth": {
+        "user": "5a485cc7c2ead6",
+        "pass": "3f68311d28ccc0"
+      }
+    }
+  }
+}

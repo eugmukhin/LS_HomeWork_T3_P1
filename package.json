@@ -1,0 +1,30 @@
+{
+  "name": "LS_HomeWork_T3_P1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "formidable": "^1.2.1",
+    "lowdb": "^1.0.0",
+    "nodemailer": "^4.6.8",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
