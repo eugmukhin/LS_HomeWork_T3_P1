@@ -41,9 +41,11 @@ module.exports.sendMessage = function (req, res, next) {
   });
 };
 module.exports.admin = function (req, res) {
+  const skillList = db.getState().skills || [];
   res.render('pages/admin', {
     msgskill: req.flash('msgskill').join(),
-    msgfile: req.flash('msgfile').join()
+    msgfile: req.flash('msgfile').join(),
+    skillList: skillList
   });
 };
 module.exports.login = function (req, res) {
